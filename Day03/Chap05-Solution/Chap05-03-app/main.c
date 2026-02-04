@@ -48,7 +48,7 @@ int main()
 	
 	do
 	{
-		printf("do while 실행!\n");
+		printf("do while 실행!\n"); // 무조건 한번 실행
 		a--;
 	} while (a > 0);
 	
