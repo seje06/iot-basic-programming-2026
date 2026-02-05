@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 // c에만 거의 필수
-int sum(int x, int y); // 함수 선언, 내용이 없음
+//int sum(int x, int y); // 함수 선언, 내용이 없음
+int sum(int, int); // 함수 선언, 매개변수 이름 생략 가능
 
 int main()
 {
