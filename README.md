@@ -214,4 +214,37 @@ IoT 개발자과정 기초 프로그래밍 언어 학습 리포지토리
 
 ### C 중급 문법
 
-4. 문자열과 포인터
+4. 문자열과 포인터 : [소스](./Day06/Chap12-Solution/Chap12-01-app/main.c)
+    - 문자열 연산 함수 - 자주 사용하는 문자열 처리 내장함수
+    - `strlen`, strcpy, strncpy, strcat, strncat, strcmp, strncmp
+
+5. Tip
+    - #pragma region, #pragma endregion : 소스코드 영역에서 일부 축소(확장)시키고자 할때
+
+6. 변수 영역과 : [소스](./Day06/Chap13-Solution/Chap13-01-app/main.c)
+    - `auto` : 지역변수를 뜻함. auto라는 키워드를 별로 사용안함.
+    - global : 전역변수. global 단어를 사용하는게 아님. 전역변수는 문제가 많아 제한적으로 사용할 것
+    - `static` : 정적. 소스코드 전체가 실행되는 동안 살아있는 변수 [소스](./Day06/Chap13-Solution/Chap13-02-app/main.c)
+    - `register` : CPU내 존재하는 메모리를 뜻함. 데이터 처리속도가 가장 빠름. 거의 쓸일 없음
+    - `extern` : 외부 소스에서 사용할 변수.
+
+7. 데이터 공유 방법!!! : [소스](./Day06/Chap13-Solution/Chap13-03-app/main.c)
+    - 데이터를 필요할때마다 복사하는 것보다, 같이 공유하는 것이 메모리를 절약하는 방법임
+    - `값을 복사해서 전달`과 `주소를 전달`
+    - 포인터 변수로 리턴은 주소를 전달과 동일한 개념
+
+8. 다차원 배열 : [소스](./Day06/Chap14-Solution/Chap14-01-app/main.c)
+    - 1차원 배열 : score[4] 크기 5의 배열 score
+    - 2차원 배열 : score[4] 배열이 3개. score[3][4]. 3행(row) 4열(column) 
+
+9. 포인터 배열 : [소스](./Day06/Chap14-Solution/Chap14-02-app/main.c)
+    - 2차원 배열과 유사
+
+10. 이중포인터
+    - 값은 a = 10 밖에 없음! 나머지는 전부 주소!!
+
+    ![alt text](image-7.png)
+
+    - [단일포인터배열](./Day05/Chap10-Solution/Chap10-03-app/main.c) VS [이중포인터배열](./Day06/Chap15-Solution/Chap15-02-app/main.c) 비교
+
+11. 함수와 void 포인터
