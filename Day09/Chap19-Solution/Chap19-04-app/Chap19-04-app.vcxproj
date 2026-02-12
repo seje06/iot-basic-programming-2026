@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{89efa74e-bbaa-4f05-a460-185cc6a643cc}</ProjectGuid>
-    <RootNamespace>Chap1802app</RootNamespace>
+    <ProjectGuid>{f692faf4-5ecb-4e02-a54e-65899123d57d}</ProjectGuid>
+    <RootNamespace>Chap1904app</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -128,10 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="point.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="copy.txt" />
-    <Text Include="original.txt" />
+    <ClInclude Include="line.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

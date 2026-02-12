@@ -131,7 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="copy.txt" />
-    <Text Include="original.txt" />
     <Text Include="sample.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -18,13 +18,8 @@
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="copy.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
-    <Text Include="sample.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
+    <ClCompile Include="sub.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

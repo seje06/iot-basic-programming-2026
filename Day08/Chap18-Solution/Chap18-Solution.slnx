@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Chap18-01-app/Chap18-01-app.vcxproj" />
+  <Project Path="../../../../../../../../SourceBank/iot-basic-programming-2026/Day08/Chap18-Solution/Chap18-01-app/Chap18-01-app.vcxproj" Id="2d01bcd4-8a26-4f1c-8978-229368137760" />
 </Solution>

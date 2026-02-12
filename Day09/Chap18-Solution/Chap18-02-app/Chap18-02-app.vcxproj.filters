@@ -20,6 +20,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="original.txt" />
+    <Text Include="copy.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="original.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>

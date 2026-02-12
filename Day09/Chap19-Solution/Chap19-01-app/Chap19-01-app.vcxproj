@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{89efa74e-bbaa-4f05-a460-185cc6a643cc}</ProjectGuid>
-    <RootNamespace>Chap1802app</RootNamespace>
+    <ProjectGuid>{66e0785a-2615-4b35-96cc-177e4741dc12}</ProjectGuid>
+    <RootNamespace>Chap1901app</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -130,8 +130,7 @@
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="copy.txt" />
-    <Text Include="original.txt" />
+    <ClInclude Include="Include\student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
