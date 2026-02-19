@@ -3,8 +3,9 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Addressbook_step1/Addressbook_step1.vcxproj" />
-  <Project Path="Addressbook_step2/Addressbook_step2.vcxproj" />
-  <Project Path="Addressbook_step3/Addressbook_step3.vcxproj" />
-  <Project Path="Addressbook_step4/Addressbook_step4.vcxproj" />
+  <Project Path="Addressbook_step1/Addressbook_step1.vcxproj" Id="d5796b98-5baa-4472-9dc7-f3fb961d4c44" />
+  <Project Path="Addressbook_step2/Addressbook_step2.vcxproj" Id="e014ff55-181f-4246-af2e-ac7f6cb26a87" />
+  <Project Path="Addressbook_step3/Addressbook_step3.vcxproj" Id="29e26115-7319-48dc-a22a-ad0baf6e518e" />
+  <Project Path="Addressbook_step4/Addressbook_step4.vcxproj" Id="bbb6cc55-e58f-4116-9e69-30c6635d55bd" />
+  <Project Path="Temp/Temp.vcxproj" Id="35dbf206-7e46-4ad1-8e99-643b426bb8fb" />
 </Solution>
